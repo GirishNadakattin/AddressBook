@@ -1,0 +1,186 @@
+1. Project Title: Address Book
+
+2. Name: Girish Iranna Nadakattin
+
+3. Start Date: 15/09/2025
+
+4. End Date: 26/09/2025
+
+5.Description: Address Book is a simple application written in C language.
+               It maintains a record of names, phone numbers, and e-mail addresses.
+               It is a console-based program that uses standard I/O for adding and deleting contacts,
+               searching for names along with their numbers and email addresses, updating contact details,
+               and listing all stored contacts.
+
+6.Sample input and outputs:
+a. Create contact:
+    
+    sample Input:
+        Enter name : Girish
+        Enter phone number :1234567890
+        Enter email :girish@gmail.com
+
+    sample Output:
+        Contact created successfully !
+
+b.Search Contact: 
+
+    sample Input:
+        Select any one:
+        1. Search by name
+        2. Search by phone number
+        3. Search by email
+        1
+        Enter Name: 
+        Girish
+
+    Sample Output :
+        Index :2
+        Name :Girish
+        Phone Number: 9345678123
+        Email ID: wilson@yahoo.com
+
+C.Edit Contact:
+
+    sample Input:
+        Select any one:
+        1. Search by name
+        2. Search by phone number
+        3. Search by email
+        1
+        Enter Name:
+        Girish
+        Index :6
+        Name :Girish
+        Phone Number: 1234567890
+        Email ID: girish@gmail.com
+
+        Contact found successfully
+        Enter the index which you want to edit :6
+
+        Selected contact is :
+        => Girish 1234567890 girish@gmail.com
+
+        Enter what do you want to edit ?
+        1.Name
+        2.phone
+        3.email:
+        =>1
+        Enter name to update: 
+        Harish
+
+    Sample Output :
+        Contact updated succesfully !
+
+d.Delete Contact :
+
+    sample Input:
+        Select any one:
+        1. Search by name
+        2. Search by phone number
+        3. Search by email
+        1
+
+        Enter Name:
+        Girish
+
+        Index :6
+        Name :Girish
+        Phone Number: 7890654321
+        Email ID: giris@gmail.com
+        Contact found successfully
+
+        Enter the index which you want to delete :6
+
+        Selected contact is 
+        => Girish 7890654321 giris@gmail.com
+
+        Are you sure you want to delete this contact ?
+        1.Yes
+        2.No
+        =>1
+
+    sample Output:
+        Contact deleted successfully!
+
+e.List contacts
+    1.Sort by Name:
+        sample Input:
+            sort by :
+            1.Name
+            2.Phone Number
+            3.Email address
+            4.Any order
+            => 1
+
+        sample Output:
+        
+            Name                Phone number        Email ID
+            ---------------------------------------------------------------
+            Fiona Davis         9234567890          davis@gmail.com
+            Ian Thomas          9786543210          thomas@protonmail.com
+            Wilson              9345678123          wilson@yahoo.com
+            hujnfe jok          6789054321          vgyhnjik@gmail.com
+            hyunjk              3456789021          gyhbj@gmail.com
+            ---------------------------------------------------------------
+    
+    2.sort by Phone Number:
+        sample Input:
+            sort by :
+            1.Name
+            2.Phone Number
+            3.Email address
+            4.Any order
+            => 2
+        
+        sample Output:
+        
+            Name                Phone number        Email ID
+            ---------------------------------------------------------------
+            hyunjk              3456789021          gyhbj@gmail.com
+            hujnfe jok          6789054321          vgyhnjik@gmail.com
+            Fiona Davis         9234567890          davis@gmail.com
+            Wilson              9345678123          wilson@yahoo.com
+            Ian Thomas          9786543210          thomas@protonmail.com
+            ---------------------------------------------------------------
+
+    3.sort by Email Address:
+        sample Input:
+            sort by :
+            1.Name
+            2.Phone Number
+            3.Email address
+            4.Any order
+            => 3
+        
+        sample Output:
+    
+            Name                Phone number        Email ID
+            ---------------------------------------------------------------
+            Fiona Davis         9234567890          davis@gmail.com
+            hyunjk              3456789021          gyhbj@gmail.com
+            Ian Thomas          9786543210          thomas@protonmail.com
+            hujnfe jok          6789054321          vgyhnjik@gmail.com
+            Wilson              9345678123          wilson@yahoo.com
+            ---------------------------------------------------------------
+
+    3.sort by Any Order:
+        sample Input:
+            sort by :
+            1.Name
+            2.Phone Number
+            3.Email address
+            4.Any order
+            => 4
+        
+        sample Output:
+    
+            Name                Phone number        Email ID
+            ---------------------------------------------------------------
+            Fiona Davis         9234567890          davis@gmail.com
+            hyunjk              3456789021          gyhbj@gmail.com
+            Ian Thomas          9786543210          thomas@protonmail.com
+            hujnfe jok          6789054321          vgyhnjik@gmail.com
+            Wilson              9345678123          wilson@yahoo.com
+            ---------------------------------------------------------------
+           
